@@ -3,7 +3,6 @@ from timecheck import time_checked
 n, m, k = map(int, input().split())
 data = list(map(int, input().split()))
 
-
 @time_checked
 def my_solve():
     data.sort(reverse=True)
